@@ -7,4 +7,11 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   color: #fff;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
 `;
