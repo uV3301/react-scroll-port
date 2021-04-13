@@ -1,9 +1,14 @@
 import React from "react";
-import { Nav } from "./NavbarElements";
+import { Nav, NavContainer, NavLogo } from "./NavbarElements";
 const Navbar = () => {
   return (
     <>
-      <Nav>hey there</Nav>
+      <Nav>
+        <NavContainer>
+          <NavLogo to="/">HOME</NavLogo>
+          Hey there
+        </NavContainer>
+      </Nav>
     </>
   );
 };
